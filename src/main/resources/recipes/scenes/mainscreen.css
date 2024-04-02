@@ -1,0 +1,27 @@
+.headerlabel{
+    -fx-font-size: 48px;
+    -fx-font-family: "Inter-SemiBold", sans-serif;
+}
+
+}
+
+.background{
+    -fx-background-color: #FCFCFC;
+}
+.list-view .cell:{
+    -fx-background: -fx-control-inner-background;
+    -fx-background-color: derive(-fx-control-inner-background, -20%);
+    -fx-background-insets: 0, 1;
+    -fx-background-radius: 0;
+    -fx-padding: 10;
+}
+
+
+.list-view .cell:filled:selected,
+.list-view .cell:filled:selected:focused {
+    -fx-background: -fx-control-inner-background;
+    -fx-background-color: derive(-fx-control-inner-background, -20%);
+    -fx-background-insets: 0, 1;
+    -fx-background-radius: 0;
+    -fx-padding: 10;
+}

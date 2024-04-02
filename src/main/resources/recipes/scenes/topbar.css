@@ -1,0 +1,64 @@
+.filter {
+    -fx-border-radius: 5px;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-padding: 5px 10px;
+}
+
+.filter:hover {
+    -fx-background-color: #FFBC0A; /* Новый цвет при наведении */
+    -fx-border-radius: 5px;
+}
+
+.filter:active {
+    -fx-background-color: #b18e2f;
+}
+
+.addbutton {
+    -fx-background-color: white;
+    -fx-padding: 5px 10px;
+}
+
+.addbutton:hover {
+    -fx-background-color: #FFBC0A; /* Новый цвет при наведении */
+}
+
+.burgermenubutton {
+    -fx-background-color: white;
+    -fx-padding: 5px 10px;
+}
+
+.burgermenubutton:hover {
+    -fx-background-color: #FFBC0A; /* Новый цвет при наведении */
+}
+
+.searchfield {
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px 0 0 5px;
+    -fx-padding: 5px 10px;
+    -fx-transition: background-color 0.3s;
+}
+
+.searchfield:disabled {
+    -fx-border-color: darkgrey;
+}
+
+.searchbutton {
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-radius: 0 5px 5px 0;
+}
+
+.searchbutton:hover {
+    -fx-background-color: #FFBC0A; /* Новый цвет при наведении */
+}
+
+.topbarcontainer{
+    -fx-border-insets: -1px;
+    -fx-background-color: white;
+    -fx-border-width: 1px;
+    -fx-border-color: #201F1E;
+}
