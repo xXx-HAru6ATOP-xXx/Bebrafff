@@ -1,4 +1,4 @@
-package recipes.nicefood;
+package recipes.utility;
 
 import java.util.List;
 
@@ -11,10 +11,11 @@ public class Recipe {
     private String ResultPhoto;
     private List<String> Steps;
     private List<String> ImagesUrls;
+    private List<String> Ingredients;
     private Boolean FavoriteStatus;
 
     //Конструктор с ID
-    public Recipe(Integer recipeId, String recipeName, Integer calories, Integer time, String description, String resultPhoto, List<String> steps, List<String> imagesUrls, Boolean favoriteStatus) {
+    public Recipe(Integer recipeId, String recipeName, Integer calories, Integer time, String description, String resultPhoto, List<String> steps, List<String> imagesUrls, List<String> ingredients, Boolean favoriteStatus) {
         this.RecipeId = recipeId;
         this.RecipeName = recipeName;
         this.Calories = calories;
@@ -24,9 +25,10 @@ public class Recipe {
         this.Steps = steps;
         this.ImagesUrls = imagesUrls;
         this.FavoriteStatus = favoriteStatus;
+        this.Ingredients = ingredients;
     }
     //Конструктор без ID
-    public Recipe(String recipeName, Integer calories, Integer time, String description, String resultPhoto, List<String> steps, List<String> imagesUrls, Boolean favoriteStatus) {
+    public Recipe(String recipeName, Integer calories, Integer time, String description, String resultPhoto, List<String> steps, List<String> imagesUrls, List<String> ingredients, Boolean favoriteStatus) {
         this.RecipeName = recipeName;
         this.Calories = calories;
         this.Time = time;
@@ -35,6 +37,7 @@ public class Recipe {
         this.Steps = steps;
         this.ImagesUrls = imagesUrls;
         this.FavoriteStatus = favoriteStatus;
+        this.Ingredients = ingredients;
     }
 
     //Инициализатор пустого класса
@@ -77,6 +80,8 @@ public class Recipe {
         FavoriteStatus = favoriteStatus;
     }
 
+    public void setIngredients(List<String> ingredients) {Ingredients = ingredients;}
+
     //Геттеры значений
     public Integer getRecipeId() {
         return RecipeId;
@@ -113,4 +118,6 @@ public class Recipe {
     public Boolean getFavoriteStatus() {
         return FavoriteStatus;
     }
+
+    public List<String> getIngredients() { return Ingredients;}
 }

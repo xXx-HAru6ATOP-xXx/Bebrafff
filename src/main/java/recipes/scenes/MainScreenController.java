@@ -1,10 +1,9 @@
-package recipes.controllers;
+package recipes.scenes;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.ListView;
 import recipes.utility.DatabaseHandler;
 import recipes.utility.Recipe;
-import recipes.utility.RecipeListCell;
 
 import java.util.List;
 

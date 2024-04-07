@@ -1,4 +1,4 @@
-package recipes.nicefood;
+package recipes.utility;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

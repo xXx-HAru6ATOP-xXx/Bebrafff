@@ -1,14 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="$CONTROLLER_NAME$"
-            prefHeight="400.0" prefWidth="600.0" >
-
+<AnchorPane prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="recipes.scenes.RecipeSceneController">
+   <children>
+      <ImageView fx:id="resultPhoto" fitHeight="400.0" fitWidth="400.0" layoutX="116.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../IMG_9674.JPG" />
+         </image>
+      </ImageView>
+      <Label fx:id="recipeName" alignment="TOP_LEFT" layoutX="561.0" layoutY="52.0" prefHeight="124.0" prefWidth="482.0" styleClass="recipename" stylesheets="@recipescreen.css" text="Recipename в две строки или больше" wrapText="true">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="description" alignment="TOP_LEFT" layoutX="565.0" layoutY="170.0" prefHeight="70.0" prefWidth="375.0" text="Description" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="calories" layoutX="565.0" layoutY="272.0" text="Calories" />
+      <Label fx:id="time" layoutX="639.0" layoutY="272.0" text="Time" />
+      <Button fx:id="toFavorite" layoutX="564.0" layoutY="303.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="44.0" styleClass="tobasket" stylesheets="@card.css">
+         <graphic>
+            <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/basket.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="toFavorite1" layoutX="630.0" layoutY="303.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="44.0" styleClass="tofavorite" stylesheets="@card.css">
+         <graphic>
+            <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/favorite.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="116.0" layoutY="387.0" text="Ingredients">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="ingredientString" alignment="TOP_LEFT" layoutX="116.0" layoutY="433.0" prefHeight="108.0" prefWidth="665.0" text="Label" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+   </children>
 </AnchorPane>

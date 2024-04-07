@@ -1,6 +1,5 @@
-package recipes.nicefood;
+package recipes.utility;
 
-import javafx.scene.image.Image;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -20,7 +19,7 @@ public class ParserRecipe {
         this.url = url;
         this.dbHandler = dbHandler;
     }
-    public void parse() {
+    public static Recipe parse(String url) {
         try {
             //Подключение к странице
             Document document = Jsoup.connect(url).get();
@@ -38,8 +37,10 @@ public class ParserRecipe {
             Integer Time = PTToInteger.PTConvert(contentValue);
 
             //Получение String Description
+            String Description = "";
             Element DescriptionBlock = document.selectFirst("[itemprop=description]");
-            String Description = DescriptionBlock.text();
+            if(DescriptionBlock!=null) {
+                Description = DescriptionBlock.text();}
 
             //Получение String ResultPhoto, являющейся ссылкой на фото
             Element ResultImageBlock = document.selectFirst("[class=resultphoto]");
@@ -76,6 +77,17 @@ public class ParserRecipe {
                     ImagesUrls.add("https:"+srcAttribute);
                 }
             }
+
+            Recipe recipe = new Recipe();
+            recipe.setRecipeName(RecipeName);
+            recipe.setCalories(Calories);
+            recipe.setTime(Time);
+            recipe.setDescription(Description);
+            recipe.setResultPhoto(ResultUrl);
+            recipe.setIngredients(Ingredients);
+            recipe.setImagesUrls(ImagesUrls);
+            recipe.setSteps(Steps);
+            return recipe;
 
         } catch (IOException e) {
             throw new RuntimeException(e);

@@ -10,7 +10,11 @@ module recipes.nicefood {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
-
-    opens recipes.nicefood to javafx.fxml;
-    exports recipes.nicefood;
+    requires java.sql;
+    requires org.jsoup;
+    requires mysql.connector.j;
+    opens recipes.utility to javafx.fxml;
+    exports recipes.utility;
+    exports recipes.scenes;
+    opens recipes.scenes to javafx.fxml;
 }

@@ -1,4 +1,4 @@
-package recipes.controllers;
+package recipes.scenes;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -19,7 +19,7 @@ public class TopBarController {
 
             Stage addWindowStage = new Stage();
             addWindowStage.initModality(Modality.APPLICATION_MODAL);
-            addWindowStage.setTitle("Дополнительное окно");
+            addWindowStage.setTitle("Добавление рецепта");
             addWindowStage.setScene(new Scene(root));
 
             AddWindowController addWindowController = loader.getController();
@@ -31,4 +31,24 @@ public class TopBarController {
         }
     }
 
+    @FXML
+    private void openDeleteAllWindow() {
+        try {
+            System.out.println();
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("deleteall.fxml"));
+            Parent root = loader.load();
+
+            Stage addWindowStage = new Stage();
+            addWindowStage.initModality(Modality.APPLICATION_MODAL);
+            addWindowStage.setTitle("Сброс всех рецептов");
+            addWindowStage.setScene(new Scene(root));
+
+            DeleteAllWindowController deleteAllWindowController = loader.getController();
+            deleteAllWindowController.setStage(addWindowStage);
+
+            addWindowStage.showAndWait();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }

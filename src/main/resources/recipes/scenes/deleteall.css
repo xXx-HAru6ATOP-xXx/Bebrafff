@@ -1,0 +1,19 @@
+.yesbutton {
+    -fx-background-color: #EE9480;
+    -fx-border-width: 1px;
+    -fx-padding: 15px 20px;
+}
+
+.yesbutton:hover {
+    -fx-background-color: #E7684B;
+}
+
+.nobutton {
+    -fx-background-color: #6BA368;
+    -fx-border-width: 1px;
+    -fx-padding: 15px 20px;
+}
+
+.yesbutton:hover {
+    -fx-background-color: #515B3A;
+}

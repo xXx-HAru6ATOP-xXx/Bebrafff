@@ -1,0 +1,44 @@
+.cell{
+    -fx-border-radius: 5px;
+    -fx-background-color: white;
+    -fx-border-width: 1px;
+    -fx-border-color: black;
+}
+
+.openbutton {
+    -fx-background-color: #FFBC0A;
+    -fx-border-width: 1px;
+    -fx-padding: 15px 20px;
+}
+
+.openbutton:hover {
+    -fx-background-color: FFE295;
+}
+
+.tobasket {
+    -fx-background-color: #6BA368;
+    -fx-padding: 5px 10px;
+}
+
+.tobasket:hover {
+    -fx-background-color: #515B3A; /* Новый цвет при наведении */
+}
+
+.tofavorite {
+    -fx-background-color: #EE9480;
+    -fx-padding: 5px 10px;
+}
+
+.tofavorite:hover {
+    -fx-background-color: #E7684B; /* Новый цвет при наведении */
+}
+.rounded-image-view {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0 10 10 0;
+    -fx-border-radius: 0 10 10 0;
+    -fx-clip: "M0,0 H100 V100 H0 Z"; /* SVG path для обрезки левых верхних углов */
+}
+
+.rounded-image-view:hover {
+    -fx-background-color: #e0e0e0;
+}
