@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Rectangle2D?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
 
-<AnchorPane minHeight="100.0" minWidth="1280.0" prefHeight="100.0" prefWidth="1217.0" styleClass="topbarcontainer" stylesheets="@topbar.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="recipes.scenes.TopBarController">
+<AnchorPane minHeight="100.0" minWidth="1280.0" prefHeight="100.0" prefWidth="1217.0" style="-fx-background-color: DarkOliveGreen;" styleClass="topbarcontainer" stylesheets="@topbar.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="recipes.scenes.TopBarController">
    <children>
       <Button layoutX="34.0" layoutY="25.0" maxHeight="50.0" maxWidth="50.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" styleClass="filter" stylesheets="@topbar.css">
          <graphic>
@@ -20,9 +18,9 @@
                </image>
             </ImageView>
          </graphic></Button>
-      <TextField id="se" layoutX="94.0" layoutY="25.0" prefHeight="50.0" prefWidth="643.0" styleClass="searchfield" stylesheets="@topbar.css" />
-      <Button layoutX="735.0" layoutY="25.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="134.0" styleClass="searchbutton" stylesheets="@topbar.css" text="Найти" />
-      <Button layoutX="1195.0" layoutY="25.0" maxHeight="50.0" maxWidth="50.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" styleClass="burgermenubutton" stylesheets="@topbar.css" onAction="#openDeleteAllWindow">
+      <TextField id="se" layoutX="94.0" layoutY="25.0" prefHeight="50.0" prefWidth="643.0" style="-fx-background-color: FEFAE0;" styleClass="searchfield" stylesheets="@topbar.css" />
+      <Button layoutX="735.0" layoutY="25.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="134.0" style="-fx-background-color: 2F4617;" styleClass="searchbutton" stylesheets="@topbar.css" text="Найти" />
+      <Button layoutX="1195.0" layoutY="25.0" maxHeight="50.0" maxWidth="50.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#openDeleteAllWindow" styleClass="burgermenubutton" stylesheets="@topbar.css">
          <graphic>
             <ImageView fitHeight="25.0" fitWidth="25.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
                <viewport>

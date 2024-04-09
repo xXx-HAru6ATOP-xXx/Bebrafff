@@ -6,7 +6,7 @@
 }
 
 .background{
-    -fx-background-color: #FCFCFC;
+    -fx-background-color: #5F6C37;
 }
 .list-view .cell:{
     -fx-background: -fx-control-inner-background;

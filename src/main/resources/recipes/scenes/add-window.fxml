@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="201.0" prefWidth="509.0" stylesheets="@addwindow.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="recipes.scenes.AddWindowController">
+<AnchorPane prefHeight="201.0" prefWidth="509.0" style="-fx-background-color: LemonChiffon;" stylesheets="@addwindow.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="recipes.scenes.AddWindowController">
    <children>
       <TextField fx:id="inputTextField" layoutX="32.0" layoutY="79.0" prefHeight="39.0" prefWidth="445.0" stylesheets="@addwindow.css" />
       <Button layoutX="160.0" layoutY="138.0" mnemonicParsing="false" onAction="#TextFieldProcessing" prefHeight="39.0" prefWidth="190.0" styleClass="addbutton" stylesheets="@addwindow.css" text="Добавить рецепт" textFill="WHITE">

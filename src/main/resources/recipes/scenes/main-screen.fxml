@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.ListView?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="800.0" maxWidth="1280.0" minHeight="800.0" minWidth="1280.0" styleClass="main" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="recipes.scenes.MainScreenController">
+<AnchorPane maxHeight="800.0" maxWidth="1280.0" minHeight="800.0" minWidth="1280.0" style="-fx-background-color: OliveDrab;" styleClass="main" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="recipes.scenes.MainScreenController">
 
     <!-- Вставляем top-bar.fxml и закрепляем его наверху -->
     <fx:include source="top-bar.fxml" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
 
     <!-- Основное содержимое -->
     <VBox styleClass="background" stylesheets="@mainscreen.css" AnchorPane.topAnchor="30.0"> <!-- Установите нужное значение в зависимости от высоты вашей top-bar -->
-        <!-- Ваше основное содержимое -->
+        <!-- основное содержимое -->
     </VBox>
 
-    <ListView fx:id="recipeListView" layoutX="95.0" layoutY="274.0" prefHeight="526.0" prefWidth="1032.0" stylesheets="@mainscreen.css" />
-   <Label fx:id="mainHeader" layoutX="95.0" layoutY="145.0" styleClass="headerlabel" stylesheets="@mainscreen.css" text="ВСЕ РЕЦЕПТЫ" />
+    <ListView fx:id="recipeListView" layoutX="84.0" layoutY="274.0" prefHeight="526.0" prefWidth="1043.0" style="-fx-background-color: LemonChiffon;" stylesheets="@mainscreen.css" />
+   <Label fx:id="mainHeader" layoutX="95.0" layoutY="145.0" styleClass="headerlabel" stylesheets="@mainscreen.css" text="ВАШИ РЕЦЕПТЫ" />
 </AnchorPane>

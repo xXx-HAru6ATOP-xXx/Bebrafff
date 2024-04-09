@@ -1,10 +1,10 @@
 
 .addbutton {
-    -fx-background-color: #EE9480;
+    -fx-background-color: #2F4617;
     -fx-border-width: 1px;
     -fx-padding: 5px 20px;
 }
 
 .addbutton:hover {
-    -fx-background-color: #E7684B;
+    -fx-background-color: #273617;
 }

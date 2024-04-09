@@ -5,38 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5214c52a-1882-4b83-b7e2-4a0e6e5edb2f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/WERH.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recipes/scenes/AddWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipes/scenes/AddWindowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recipes/scenes/CardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipes/scenes/CardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recipes/scenes/DeleteAllWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipes/scenes/DeleteAllWindowController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/recipes/scenes/MainScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipes/scenes/MainScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recipes/scenes/MainScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipes/scenes/MainScreenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recipes/scenes/RecipeListCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipes/scenes/RecipeListCell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recipes/scenes/RecipeSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipes/scenes/RecipeSceneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recipes/scenes/StepController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipes/scenes/StepController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recipes/scenes/StepListCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipes/scenes/StepListCell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recipes/scenes/TopBar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recipes/scenes/TopBarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipes/scenes/TopBarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recipes/utility/DatabaseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipes/utility/DatabaseHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recipes/utility/IngredientList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipes/utility/IngredientList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recipes/utility/PTToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipes/utility/PTToInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recipes/utility/ParserRecipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipes/utility/ParserRecipe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recipes/utility/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipes/utility/Recipe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recipes/utility/Step.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipes/utility/Step.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/add-window.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes/scenes/add-window.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/addwindow.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes/scenes/addwindow.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/card.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes/scenes/card.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/deleteall.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes/scenes/deleteall.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/deleteall.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes/scenes/deleteall.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/main-screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes/scenes/main-screen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/mainscreen.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes/scenes/mainscreen.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/recipe-screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes/scenes/recipe-screen.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/recipescreen.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes/scenes/recipescreen.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/step.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes/scenes/step.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/top-bar.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes/scenes/top-bar.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/topbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes/scenes/topbar.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -100,6 +83,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alina\IdeaProjects\Bebrafff\src\main\resources\img" />
+      <recent name="C:\Users\alina\IdeaProjects\Bebrafff\src\main\resources\fonts" />
       <recent name="C:\Users\vanka\Desktop\NiceFood\src\main\resources\recipes\scenes" />
       <recent name="C:\Users\vanka\Desktop\NiceFood\src\main\java\recipes\scenes" />
     </key>
