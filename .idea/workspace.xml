@@ -6,21 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5214c52a-1882-4b83-b7e2-4a0e6e5edb2f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recipes/scenes/MainScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipes/scenes/MainScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/WERH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/add-window.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes/scenes/add-window.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/addwindow.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/styles/addwindow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/styles/card.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/card.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes/scenes/card.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/deleteall.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/styles/deleteall.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/deleteall.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes/scenes/deleteall.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/main-screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes/scenes/main-screen.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/mainscreen.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/styles/mainscreen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/recipe-screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes/scenes/recipe-screen.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/recipescreen.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/styles/recipescreen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/top-bar.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes/scenes/top-bar.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/topbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/styles/topbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +62,7 @@
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/easho/Desktop/Програмирование/жава/FoodDelivery2",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3091954",
     "settings.editor.selected.configurable": "MavenSettings"
@@ -101,7 +87,7 @@
   <component name="RunManager" selected="Application.MainScreen">
     <configuration name="Card" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recipes.scenes.Card" />
-      <module name="NiceFood" />
+      <module name="ToadMeal" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="recipes.controllers.*" />
@@ -114,7 +100,7 @@
     </configuration>
     <configuration name="DatabaseHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recipes.utility.DatabaseHandler" />
-      <module name="NiceFood" />
+      <module name="ToadMeal" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="recipes.controllers.*" />
@@ -127,7 +113,7 @@
     </configuration>
     <configuration name="MainScreen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recipes.scenes.MainScreen" />
-      <module name="NiceFood" />
+      <module name="ToadMeal" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="recipes.controllers.*" />
@@ -140,7 +126,7 @@
     </configuration>
     <configuration name="recipes.demo.MainScreen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recipes.demo.MainScreen" />
-      <module name="NiceFood" />
+      <module name="ToadMeal" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="recipes.demo.*" />
@@ -154,6 +140,19 @@
     <configuration name="mysql-connector-j-8.2.0.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/lib/mysql-connector-j-8.2.0.jar" />
       <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ToadMeal" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ToadMeal" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
@@ -174,10 +173,21 @@
       <option name="presentableId" value="Default" />
       <updated>1705541687411</updated>
     </task>
+    <task id="LOCAL-00001" summary="структура кода">
+      <option name="closed" value="true" />
+      <created>1712671763752</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712671763752</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="структура кода" />
+    <option name="LAST_COMMIT_MESSAGE" value="структура кода" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
