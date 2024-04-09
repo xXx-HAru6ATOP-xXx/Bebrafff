@@ -5,21 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5214c52a-1882-4b83-b7e2-4a0e6e5edb2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/WERH.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/recipes/scenes/MainScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recipes/scenes/MainScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/WERH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/add-window.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes/scenes/add-window.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/addwindow.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes/scenes/addwindow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/addwindow.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/styles/addwindow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/styles/card.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/card.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes/scenes/card.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/deleteall.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes/scenes/deleteall.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/deleteall.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/styles/deleteall.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/deleteall.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes/scenes/deleteall.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/main-screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes/scenes/main-screen.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/mainscreen.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes/scenes/mainscreen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/mainscreen.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/styles/mainscreen.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/recipe-screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes/scenes/recipe-screen.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/step.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes/scenes/step.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/recipescreen.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/styles/recipescreen.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/top-bar.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes/scenes/top-bar.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/topbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/recipes/scenes/topbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/recipes/scenes/topbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/styles/topbar.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,34 +56,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Card.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DatabaseHandler.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainScreen.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ParcerRecipe.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TopBar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WebScrapper.executor&quot;: &quot;Run&quot;,
-    &quot;Application.recipes.demo.MainScreen.executor&quot;: &quot;Run&quot;,
-    &quot;Application.your.MainScreen.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/easho/Desktop/Програмирование/жава/FoodDelivery2&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.3091954&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Card.executor": "Run",
+    "Application.DatabaseHandler.executor": "Run",
+    "Application.HelloApplication.executor": "Run",
+    "Application.MainScreen.executor": "Run",
+    "Application.ParcerRecipe.executor": "Run",
+    "Application.TopBar.executor": "Run",
+    "Application.WebScrapper.executor": "Run",
+    "Application.recipes.demo.MainScreen.executor": "Run",
+    "Application.your.MainScreen.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/easho/Desktop/Програмирование/жава/FoodDelivery2",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3091954",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\easho\Desktop\Програмирование\жава\Bebra\src\main\resources\styles" />
       <recent name="C:\Users\alina\IdeaProjects\Bebrafff\src\main\resources\img" />
       <recent name="C:\Users\alina\IdeaProjects\Bebrafff\src\main\resources\fonts" />
       <recent name="C:\Users\vanka\Desktop\NiceFood\src\main\resources\recipes\scenes" />
@@ -102,7 +104,7 @@
       <module name="NiceFood" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recipes.scenes.*" />
+          <option name="PATTERN" value="recipes.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,7 +117,7 @@
       <module name="NiceFood" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recipes.scenes.*" />
+          <option name="PATTERN" value="recipes.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,7 +130,7 @@
       <module name="NiceFood" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recipes.scenes.*" />
+          <option name="PATTERN" value="recipes.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

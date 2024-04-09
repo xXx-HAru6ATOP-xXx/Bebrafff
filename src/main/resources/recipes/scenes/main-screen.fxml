@@ -9,10 +9,10 @@
     <fx:include source="top-bar.fxml" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
 
     <!-- Основное содержимое -->
-    <VBox styleClass="background" stylesheets="@mainscreen.css" AnchorPane.topAnchor="30.0"> <!-- Установите нужное значение в зависимости от высоты вашей top-bar -->
+    <VBox styleClass="background" stylesheets="@../../styles/mainscreen.css" AnchorPane.topAnchor="30.0"> <!-- Установите нужное значение в зависимости от высоты вашей top-bar -->
         <!-- основное содержимое -->
     </VBox>
 
-    <ListView fx:id="recipeListView" layoutX="84.0" layoutY="274.0" prefHeight="526.0" prefWidth="1043.0" style="-fx-background-color: LemonChiffon;" stylesheets="@mainscreen.css" />
-   <Label fx:id="mainHeader" layoutX="95.0" layoutY="145.0" styleClass="headerlabel" stylesheets="@mainscreen.css" text="ВАШИ РЕЦЕПТЫ" />
+    <ListView fx:id="recipeListView" layoutX="84.0" layoutY="274.0" prefHeight="526.0" prefWidth="1043.0" style="-fx-background-color: LemonChiffon;" stylesheets="@../../styles/mainscreen.css" />
+   <Label fx:id="mainHeader" layoutX="95.0" layoutY="145.0" styleClass="headerlabel" stylesheets="@../../styles/mainscreen.css" text="ВАШИ РЕЦЕПТЫ" />
 </AnchorPane>

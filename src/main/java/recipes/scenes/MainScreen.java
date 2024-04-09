@@ -19,7 +19,7 @@ public class MainScreen extends Application {
 
         FXMLLoader fxmlLoader = new FXMLLoader(MainScreen.class.getResource("main-screen.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 1280, 800);
-        String absolutePath = "C:\\Users\\alina\\IdeaProjects\\Bebrafff\\src\\main\\resources\\img\\WERH.png";
+        String absolutePath = "C:\\Users\\easho\\Desktop\\Програмирование\\жава\\Bebra\\src\\main\\resources\\img\\icon.png";
         stage.getIcons().add(new Image("file:" + absolutePath));
         stage.setTitle("Toad's menu");
         stage.setResizable(false);

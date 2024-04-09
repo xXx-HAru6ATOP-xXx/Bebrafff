@@ -12,7 +12,7 @@
             <Image url="@../../../../../../IMG_9674.JPG" />
          </image>
       </ImageView>
-      <Label fx:id="recipeName" alignment="TOP_LEFT" layoutX="561.0" layoutY="52.0" prefHeight="124.0" prefWidth="482.0" styleClass="recipename" stylesheets="@recipescreen.css" text="Recipename в две строки или больше" wrapText="true">
+      <Label fx:id="recipeName" alignment="TOP_LEFT" layoutX="561.0" layoutY="52.0" prefHeight="124.0" prefWidth="482.0" styleClass="recipename" stylesheets="@../../styles/recipescreen.css" text="Recipename в две строки или больше" wrapText="true">
          <font>
             <Font size="36.0" />
          </font>
@@ -24,7 +24,7 @@
       </Label>
       <Label fx:id="calories" layoutX="565.0" layoutY="272.0" text="Calories" />
       <Label fx:id="time" layoutX="639.0" layoutY="272.0" text="Time" />
-      <Button fx:id="toFavorite" layoutX="564.0" layoutY="303.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="44.0" styleClass="tobasket" stylesheets="@card.css">
+      <Button fx:id="toFavorite" layoutX="564.0" layoutY="303.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="44.0" styleClass="tobasket" stylesheets="@../../styles/card.css">
          <graphic>
             <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -33,7 +33,7 @@
             </ImageView>
          </graphic>
       </Button>
-      <Button fx:id="toFavorite1" layoutX="630.0" layoutY="303.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="44.0" styleClass="tofavorite" stylesheets="@card.css">
+      <Button fx:id="toFavorite1" layoutX="630.0" layoutY="303.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="44.0" styleClass="tofavorite" stylesheets="@../../styles/card.css">
          <graphic>
             <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
                <image>

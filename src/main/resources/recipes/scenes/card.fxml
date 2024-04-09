@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="230.0" maxWidth="860.0" minHeight="230.0" minWidth="860.0" prefHeight="230.0" prefWidth="860.0" style="-fx-background-color: LightYellow;" styleClass="cell" stylesheets="@card.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="recipes.scenes.CardController">
+<AnchorPane maxHeight="230.0" maxWidth="860.0" minHeight="230.0" minWidth="860.0" prefHeight="230.0" prefWidth="860.0" style="-fx-background-color: LightYellow;" styleClass="cell" stylesheets="@../../styles/card.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="recipes.scenes.CardController">
    <children>
       <ImageView fx:id="resultPhoto" fitHeight="230.0" fitWidth="308.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" styleClass="rounded-image-view">
          <image>
@@ -17,8 +17,8 @@
             <Font size="36.0" />
          </font>
       </Label>
-      <Button graphicTextGap="5.0" layoutX="366.0" layoutY="154.0" mnemonicParsing="false" onAction="#openNewSceneWithData" styleClass="openbutton" stylesheets="@card.css" text="ОТКРЫТЬ РЕЦЕПТ" />
-      <Button layoutX="518.0" layoutY="154.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="47.0" styleClass="tobasket" stylesheets="@card.css">
+      <Button graphicTextGap="5.0" layoutX="366.0" layoutY="154.0" mnemonicParsing="false" onAction="#openNewSceneWithData" styleClass="openbutton" stylesheets="@../../styles/card.css" text="ОТКРЫТЬ РЕЦЕПТ" />
+      <Button layoutX="518.0" layoutY="154.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="47.0" styleClass="tobasket" stylesheets="@../../styles/card.css">
          <graphic>
             <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -27,7 +27,7 @@
             </ImageView>
          </graphic></Button>
       <Label fx:id="descriptionLabel" alignment="TOP_LEFT" layoutX="366.0" layoutY="86.0" prefHeight="62.0" prefWidth="434.0" text="Label" wrapText="true" />
-      <Button layoutX="579.0" layoutY="154.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="47.0" styleClass="tofavorite" stylesheets="@card.css">
+      <Button layoutX="579.0" layoutY="154.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="47.0" styleClass="tofavorite" stylesheets="@../../styles/card.css">
          <graphic>
             <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
                <image>

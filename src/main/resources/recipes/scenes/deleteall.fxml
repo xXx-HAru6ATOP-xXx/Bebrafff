@@ -10,12 +10,12 @@
          <font>
             <Font size="14.0" />
          </font></Label>
-      <Button fx:id="yesButton" layoutX="154.0" layoutY="91.0" mnemonicParsing="false" onAction="#onYesClick" prefHeight="47.0" prefWidth="95.0" styleClass="yesbutton" stylesheets="@deleteall.css" text="Да" textFill="WHITE">
+      <Button fx:id="yesButton" layoutX="154.0" layoutY="91.0" mnemonicParsing="false" onAction="#onYesClick" prefHeight="47.0" prefWidth="95.0" styleClass="yesbutton" stylesheets="@../../styles/deleteall.css" text="Да" textFill="WHITE">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </Button>
-      <Button fx:id="noButton" layoutX="270.0" layoutY="91.0" mnemonicParsing="false" onAction="#closeWindow" prefHeight="47.0" prefWidth="95.0" styleClass="nobutton" stylesheets="@deleteall.css" text="Отмена" textFill="WHITE">
+      <Button fx:id="noButton" layoutX="270.0" layoutY="91.0" mnemonicParsing="false" onAction="#closeWindow" prefHeight="47.0" prefWidth="95.0" styleClass="nobutton" stylesheets="@../../styles/deleteall.css" text="Отмена" textFill="WHITE">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
